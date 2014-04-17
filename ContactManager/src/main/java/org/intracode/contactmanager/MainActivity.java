@@ -29,6 +29,7 @@ public class MainActivity extends Activity {
     ListView contactListView;
     Uri imageUri = Uri.parse("android.resource://org.intracode.contactmanager/drawable/no_user_logo.png");
     DatabaseHandler dbHandler;
+    //some changes
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

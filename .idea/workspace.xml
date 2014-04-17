@@ -11,7 +11,10 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="961af4fc-3787-491c-8bdd-a0dc6afb6d65" name="Default" comment="" />
+    <list default="true" id="961af4fc-3787-491c-8bdd-a0dc6afb6d65" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ContactManager/src/main/java/org/intracode/contactmanager/MainActivity.java" afterPath="$PROJECT_DIR$/ContactManager/src/main/java/org/intracode/contactmanager/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="ContactManager.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -86,10 +89,10 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ContactManager/src/main/java/org/intracode/contactmanager/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="42" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.5103926" vertical-offset="0" max-vertical-offset="2567">
+            <state line="31" column="18" selection-start="979" selection-end="979" vertical-scroll-proportion="0.23556583" vertical-offset="0" max-vertical-offset="2584">
               <folding>
-                <element signature="e#3560#3928#0" expanded="true" />
-                <element signature="e#3912#3913#0" expanded="true" />
+                <element signature="e#3579#3947#0" expanded="true" />
+                <element signature="e#3931#3932#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,6 +108,9 @@
   <component name="GenerateSignedApkSettings">
     <option name="KEY_STORE_PATH" value="C:\Users\Johnny\Desktop\Development\Android\contactmanager_keystore.jks" />
     <option name="KEY_ALIAS" value="ContactManager" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="tasksExpandState">
@@ -1017,8 +1023,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="0" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="2125">
           <folding>
-            <element signature="e#3560#3928#0" expanded="true" />
-            <element signature="e#3912#3913#0" expanded="true" />
+            <element signature="e#3579#3947#0" expanded="true" />
+            <element signature="e#3931#3932#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1055,8 +1061,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="0" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="2125">
           <folding>
-            <element signature="e#3560#3928#0" expanded="true" />
-            <element signature="e#3912#3913#0" expanded="true" />
+            <element signature="e#3579#3947#0" expanded="true" />
+            <element signature="e#3931#3932#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1093,8 +1099,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="0" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="2125">
           <folding>
-            <element signature="e#3560#3928#0" expanded="true" />
-            <element signature="e#3912#3913#0" expanded="true" />
+            <element signature="e#3579#3947#0" expanded="true" />
+            <element signature="e#3931#3932#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1131,8 +1137,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="0" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="2125">
           <folding>
-            <element signature="e#3560#3928#0" expanded="true" />
-            <element signature="e#3912#3913#0" expanded="true" />
+            <element signature="e#3579#3947#0" expanded="true" />
+            <element signature="e#3931#3932#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1164,8 +1170,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="0" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="2125">
           <folding>
-            <element signature="e#3560#3928#0" expanded="true" />
-            <element signature="e#3912#3913#0" expanded="true" />
+            <element signature="e#3579#3947#0" expanded="true" />
+            <element signature="e#3931#3932#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1197,8 +1203,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="0" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="1853">
           <folding>
-            <element signature="e#3560#3928#0" expanded="true" />
-            <element signature="e#3912#3913#0" expanded="true" />
+            <element signature="e#3579#3947#0" expanded="true" />
+            <element signature="e#3931#3932#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1230,8 +1236,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="48" selection-start="1729" selection-end="1729" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1734">
           <folding>
-            <element signature="e#3560#3928#0" expanded="true" />
-            <element signature="e#3912#3913#0" expanded="true" />
+            <element signature="e#3579#3947#0" expanded="true" />
+            <element signature="e#3931#3932#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1263,8 +1269,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="0" selection-start="2244" selection-end="2244" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1326">
           <folding>
-            <element signature="e#3560#3928#0" expanded="true" />
-            <element signature="e#3912#3913#0" expanded="true" />
+            <element signature="e#3579#3947#0" expanded="true" />
+            <element signature="e#3931#3932#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1289,8 +1295,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="62" selection-start="1407" selection-end="1407" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1224">
           <folding>
-            <element signature="e#3560#3928#0" expanded="true" />
-            <element signature="e#3912#3913#0" expanded="true" />
+            <element signature="e#3579#3947#0" expanded="true" />
+            <element signature="e#3931#3932#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1307,8 +1313,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="0" selection-start="991" selection-end="991" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="867">
           <folding>
-            <element signature="e#3560#3928#0" expanded="true" />
-            <element signature="e#3912#3913#0" expanded="true" />
+            <element signature="e#3579#3947#0" expanded="true" />
+            <element signature="e#3931#3932#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1394,10 +1400,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ContactManager/src/main/java/org/intracode/contactmanager/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="42" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.5103926" vertical-offset="0" max-vertical-offset="2567">
+        <state line="31" column="18" selection-start="979" selection-end="979" vertical-scroll-proportion="0.23556583" vertical-offset="0" max-vertical-offset="2584">
           <folding>
-            <element signature="e#3560#3928#0" expanded="true" />
-            <element signature="e#3912#3913#0" expanded="true" />
+            <element signature="e#3579#3947#0" expanded="true" />
+            <element signature="e#3931#3932#0" expanded="true" />
           </folding>
         </state>
       </provider>
