@@ -12,7 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="961af4fc-3787-491c-8bdd-a0dc6afb6d65" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ContactManager/src/main/java/org/intracode/contactmanager/MainActivity.java" afterPath="$PROJECT_DIR$/ContactManager/src/main/java/org/intracode/contactmanager/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ContactManager.iws" />
@@ -936,6 +935,11 @@
       <created>1374340365024</created>
       <updated>1374340365024</updated>
     </task>
+    <task id="LOCAL-00001" summary="just a test">
+      <created>1397761371245</created>
+      <updated>1397761371245</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1014,6 +1018,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="just a test" />
+    <option name="LAST_COMMIT_MESSAGE" value="just a test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
