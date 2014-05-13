@@ -99,8 +99,8 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ContactManager/src/main/java/org/intracode/contactmanager/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.9753522" vertical-offset="0" max-vertical-offset="3281">
-              <caret line="121" column="43" selection-start-line="121" selection-start-column="43" selection-end-line="121" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.75821596" vertical-offset="0" max-vertical-offset="3281">
+              <caret line="60" column="11" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
               <folding>
                 <element signature="e#930#939#0" expanded="true" />
                 <element signature="e#1902#2172#0" expanded="true" />
@@ -1188,7 +1188,11 @@
       <created>1399997990929</created>
       <updated>1399997990929</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Deleting Contacts">
+      <created>1399998424992</created>
+      <updated>1399998424992</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1803,8 +1807,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ContactManager/src/main/java/org/intracode/contactmanager/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.9753522" vertical-offset="0" max-vertical-offset="3281">
-          <caret line="121" column="43" selection-start-line="121" selection-start-column="43" selection-end-line="121" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.75821596" vertical-offset="0" max-vertical-offset="3281">
+          <caret line="60" column="11" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
           <folding>
             <element signature="e#930#939#0" expanded="true" />
             <element signature="e#1902#2172#0" expanded="true" />
