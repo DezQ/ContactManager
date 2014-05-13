@@ -6,9 +6,12 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.view.ContextMenu;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -23,13 +26,16 @@ import java.util.List;
 
 public class MainActivity extends Activity {
 
+    private static final int EDIT = 0, DELETE = 1;
+
     EditText nameTxt, phoneTxt, emailTxt, addressTxt;
     ImageView contactImageImgView;
     List<Contact> Contacts = new ArrayList<Contact>();
     ListView contactListView;
     Uri imageUri = Uri.parse("android.resource://org.intracode.contactmanager/drawable/no_user_logo.png");
     DatabaseHandler dbHandler;
-    //some changes
+    int longClickedItemIndex;
+    ArrayAdapter<Contact> contactAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +49,16 @@ public class MainActivity extends Activity {
         contactListView = (ListView) findViewById(R.id.listView);
         contactImageImgView = (ImageView) findViewById(R.id.imgViewContactImage);
         dbHandler = new DatabaseHandler(getApplicationContext());
+
+        registerForContextMenu(contactListView);
+
+        contactListView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+                longClickedItemIndex = position;
+                return false;
+            }
+        });
 
         TabHost tabHost = (TabHost) findViewById(R.id.tabHost);
 
@@ -66,6 +82,7 @@ public class MainActivity extends Activity {
                 if (!contactExists(contact)) {
                     dbHandler.createContact(contact);
                     Contacts.add(contact);
+                    contactAdapter.notifyDataSetChanged();
                     Toast.makeText(getApplicationContext(), String.valueOf(nameTxt.getText()) + " has been added to your Contacts!", Toast.LENGTH_SHORT).show();
                     return;
                 }
@@ -107,6 +124,30 @@ public class MainActivity extends Activity {
         populateList();
     }
 
+    public void onCreateContextMenu(ContextMenu menu, View view, ContextMenu.ContextMenuInfo menuInfo) {
+        super.onCreateContextMenu(menu, view, menuInfo);
+
+        menu.setHeaderIcon(R.drawable.pencil_icon);
+        menu.setHeaderTitle("Contact Options");
+        menu.add(Menu.NONE, EDIT, menu.NONE, "Edit Contact");
+        menu.add(Menu.NONE, DELETE, menu.NONE, "Delete Contact");
+    }
+
+    public boolean onContextItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case EDIT:
+                // TODO: Implement editing a contact
+                break;
+            case DELETE:
+                dbHandler.deleteContact(Contacts.get(longClickedItemIndex));
+                Contacts.remove(longClickedItemIndex);
+                contactAdapter.notifyDataSetChanged();
+                break;
+        }
+
+        return super.onContextItemSelected(item);
+    }
+
     private boolean contactExists(Contact contact) {
         String name = contact.getName();
         int contactCount = Contacts.size();
@@ -128,8 +169,8 @@ public class MainActivity extends Activity {
     }
 
     private void populateList() {
-        ArrayAdapter<Contact> adapter = new ContactListAdapter();
-        contactListView.setAdapter(adapter);
+        contactAdapter = new ContactListAdapter();
+        contactListView.setAdapter(contactAdapter);
     }
 
     private class ContactListAdapter extends ArrayAdapter<Contact> {

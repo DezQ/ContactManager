@@ -115,8 +115,8 @@
                             android:layout_marginTop="10dp"/>
 
                     <ListView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
                             android:id="@+id/listView"
                             android:layout_gravity="center"/>
                 </LinearLayout>
