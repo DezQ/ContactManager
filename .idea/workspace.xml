@@ -22,23 +22,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: org.intracode.contactmanager" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="961af4fc-3787-491c-8bdd-a0dc6afb6d65" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ContactManager/src/main/res/drawable/pencil_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_19_0_1.xml" />
-      <change type="DELETED" beforePath="C:\Users\Johnny\AndroidStudioProjects\ContactManagerProject\.idea\libraries\support_v4_13_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Johnny\AndroidStudioProjects\ContactManagerProject\ContactManager\build\pre-dexed\debug\support-v4-13.0.0-f0effe941660b9ab994356ef097cb31226a9caa1.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ContactManager/build/source/buildConfig/debug/org/intracode/contactmanager/BuildConfig.java" afterPath="$PROJECT_DIR$/ContactManager/build/source/buildConfig/debug/org/intracode/contactmanager/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ContactManager/ContactManager.iml" afterPath="$PROJECT_DIR$/ContactManager/ContactManager.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ContactManagerProject.iml" afterPath="$PROJECT_DIR$/ContactManagerProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ContactManager/src/main/java/org/intracode/contactmanager/MainActivity.java" afterPath="$PROJECT_DIR$/ContactManager/src/main/java/org/intracode/contactmanager/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ContactManager/build/source/r/debug/org/intracode/contactmanager/R.java" afterPath="$PROJECT_DIR$/ContactManager/build/source/r/debug/org/intracode/contactmanager/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ContactManager/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/ContactManager/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ContactManager/build.gradle" afterPath="$PROJECT_DIR$/ContactManager/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ContactManager/src/main/res/layout/listview_item.xml" afterPath="$PROJECT_DIR$/ContactManager/src/main/res/layout/listview_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+    <list default="true" id="961af4fc-3787-491c-8bdd-a0dc6afb6d65" name="Default" comment="Deleting Contacts">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ContactManager.iws" />
@@ -112,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ContactManager/src/main/java/org/intracode/contactmanager/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1564" max-vertical-offset="3281">
-              <caret line="123" column="23" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
+            <state vertical-scroll-proportion="1.9753522" vertical-offset="0" max-vertical-offset="3281">
+              <caret line="121" column="43" selection-start-line="121" selection-start-column="43" selection-end-line="121" selection-end-column="43" />
               <folding>
                 <element signature="e#930#939#0" expanded="true" />
                 <element signature="e#1902#2172#0" expanded="true" />
@@ -128,16 +112,6 @@
                 <element signature="e#6478#6479#0" expanded="true" />
                 <element signature="e#6561#6562#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gradle-wrapper.properties" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.019653179" vertical-offset="0" max-vertical-offset="865">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -1210,7 +1184,11 @@
       <created>1397761396370</created>
       <updated>1397761396370</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Deleting Contacts">
+      <created>1399997990929</created>
+      <updated>1399997990929</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1296,6 +1274,7 @@
     <MESSAGE value="just a test&#10;" />
     <MESSAGE value="Deleting Contacts" />
     <option name="LAST_COMMIT_MESSAGE" value="Deleting Contacts" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1814,10 +1793,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11791907" vertical-offset="0" max-vertical-offset="865">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ContactManager/src/main/java/org/intracode/contactmanager/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1564" max-vertical-offset="3281">
-          <caret line="123" column="23" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
+        <state vertical-scroll-proportion="1.9753522" vertical-offset="0" max-vertical-offset="3281">
+          <caret line="121" column="43" selection-start-line="121" selection-start-column="43" selection-end-line="121" selection-end-column="43" />
           <folding>
             <element signature="e#930#939#0" expanded="true" />
             <element signature="e#1902#2172#0" expanded="true" />
@@ -1829,14 +1816,6 @@
             <element signature="e#6478#6479#0" expanded="true" />
             <element signature="e#6561#6562#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.019653179" vertical-offset="0" max-vertical-offset="865">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
