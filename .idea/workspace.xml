@@ -1192,7 +1192,11 @@
       <created>1399998424992</created>
       <updated>1399998424992</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Deleting Contacts">
+      <created>1399998431602</created>
+      <updated>1399998431602</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
